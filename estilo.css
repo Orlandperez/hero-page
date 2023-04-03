@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(124, 166, 168);
+    background-color: rgb(168, 212, 214);
 }
 
 /* inicio del header */
 header .contenido-header{
     display: flex;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     justify-content: space-between;
     padding: 23px;
     width: 100%;
@@ -75,7 +75,6 @@ header .contenido-header a:hover{
 }
 .hero .contenido-hero .texto4{
     background-color: black;
-    color: white;
     width:350px;
     height: 80px;
     padding: 25px;
@@ -86,6 +85,10 @@ header .contenido-header a:hover{
     top: 68%;
     left: 55%;
     z-index: -2;
+}
+.hero .contenido-hero .texto4 a{
+    text-decoration: none;
+    color: white;
 }
 .hero .contenido-hero .imagen img{
     background-position: center;
